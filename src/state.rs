@@ -43,7 +43,6 @@ impl Escrow {
             &*core::mem::transmute::<*const u8, *const Self>(bytes.as_ptr())
         })
     }
-
     // #[inline(always)]
     // pub fn set_seed(&mut self, seed: u64) {
     //     self.seed = seed;
